@@ -4,7 +4,7 @@ export const AboutSection = () => {
   return (
     <section
       id="about"
-      className="py-16 md:py-24 lg:py-32 px-2 bg-gradient-to-br from-[#101826] to-[#101752] overflow-hidden min-h-screen"
+      className="py-32 md:py-24 lg:py-32 px-2 bg-gradient-to-br from-[#101826] to-[#101752] overflow-hidden min-h-screen"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">

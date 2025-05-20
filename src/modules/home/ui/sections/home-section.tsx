@@ -8,7 +8,7 @@ export const HomeSection = () => {
   return (
     <section
       id="home"
-      className="px-2 py-16 md:py-24 lg:py-36 bg-gradient-to-br from-blue-200 to-blue-950 overflow-hidden min-h-svh"
+      className="px-2 py-36 md:py-24 lg:py-36 bg-gradient-to-br from-blue-200 to-blue-950 overflow-hidden min-h-svh"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">

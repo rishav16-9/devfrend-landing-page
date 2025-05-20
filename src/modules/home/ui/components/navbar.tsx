@@ -50,7 +50,7 @@ const Navbar = () => {
     toast.success("Number copied successfully");
   };
   return (
-    <nav className="h-20 border-b bg-[#101826] flex justify-between text-white font-medium px-6 lg:px-40">
+    <nav className="h-20 border-b bg-[#101826] flex justify-between text-white font-medium px-6 lg:px-40 fixed w-full z-50">
       <Link href="/" className="flex items-center">
         <span
           className={cn(
@@ -93,7 +93,7 @@ const Navbar = () => {
           </Tooltip>
         </div>
         <Button variant="elevated" className="bg-[#3b82F6]" asChild>
-          <Link href="/" className="text-black">
+          <Link href="#contact" className="text-black">
             Book an Appointment
           </Link>
         </Button>

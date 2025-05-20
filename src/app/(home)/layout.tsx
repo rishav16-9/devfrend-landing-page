@@ -1,3 +1,4 @@
+import { Footer } from "@/modules/home/ui/components/footer";
 import Navbar from "@/modules/home/ui/components/navbar";
 
 interface LayoutProps {
@@ -7,8 +8,8 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div>{children}</div>
-      {/* <Footer /> */}
+      <div className="flex-1">{children}</div>
+      <Footer />
     </div>
   );
 };
