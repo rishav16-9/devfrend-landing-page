@@ -16,11 +16,11 @@ interface NavbarItemProps {
   isActive: boolean;
 }
 const navbarItems = [
-  { href: "/", children: "Home" },
-  { href: "/about", children: "About" },
-  { href: "/services", children: "Services" },
-  { href: "/gallery", children: "Gallery" },
-  { href: "/contact", children: "Contact" },
+  { href: "#home", children: "Home" },
+  { href: "#about", children: "About" },
+  { href: "#services", children: "Services" },
+  { href: "#gallery", children: "Gallery" },
+  { href: "#contact", children: "Contact" },
 ];
 const popins = Poppins({
   subsets: ["latin"],
