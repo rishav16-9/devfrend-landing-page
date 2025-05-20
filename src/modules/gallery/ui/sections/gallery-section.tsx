@@ -11,12 +11,12 @@ export const GallerySection = () => {
   return (
     <section
       id="gallery"
-      className="py-16 md:px-20 md:py-24 lg:py-32 px-2 bg-gradient-to-br from-[#101826] to-[#101752] overflow-hidden min-h-screen flex flex-col gap-y-8 items-center"
+      className="py-32 md:px-20 md:py-24 lg:py-32 px-2 bg-gradient-to-br from-blue-200 to-blue-950 overflow-hidden min-h-screen flex flex-col gap-y-8 items-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <p className="text-blue-500 text-lg font-medium">Our Work & Shop</p>
-          <h1 className="text-3xl font-semibold text-white">
+          <p className="text-black text-lg font-medium">Our Work & Shop</p>
+          <h1 className="text-3xl font-semibold text-black">
             Our Barbershop Gallery
           </h1>
           <p className="text-lg text-white/60 mt-6 max-w-3xl mx-auto">
@@ -29,7 +29,7 @@ export const GallerySection = () => {
         {galleryConstant.map((img) => (
           <div
             key={img.id}
-            className="hover:border-blue-400 border-2 border-transparent rounded-lg relative group"
+            className="hover:border-black border-2 border-transparent rounded-lg relative group"
             onClick={() => setSelectedImage(img.imageUrl)}
           >
             <Image
@@ -38,8 +38,7 @@ export const GallerySection = () => {
               width={600}
               alt={img.id}
               src={img.imageUrl}
-              className="object-cover w-full h-[300px] rounded-lg "
-              priority
+              className="object-cover w-full h-[300px] rounded-lg"
             />
             <Button
               variant="ghost"
