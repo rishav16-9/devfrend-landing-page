@@ -15,14 +15,15 @@ export const ServiceCard = ({
   description,
 }: ServiceCardProps) => {
   return (
-    <div className="flex flex-col bg-[#1F2937] rounded-lg gap-8 p-10 hover:-translate-y-2 ] hover:bg-gradient-to-r hover:from-blue-500 hover:via-white hover:to-orange-500 group h-full group ">
+    <div className="flex flex-col bg-[#1F2937] rounded-lg gap-8 p-10 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-blue-500 hover:via-white hover:to-orange-500 group h-full group ">
       <div className="bg-[#374151] w-20 h-20 rounded-md p-4 flex items-center">
         <Image
           src={imageUrl}
           alt={name}
           height={100}
           width={100}
-          className=""
+          className="object-contain"
+          loading="lazy"
         />
       </div>
       <p className="text-white font-medium text-lg group-hover:text-black/70">
