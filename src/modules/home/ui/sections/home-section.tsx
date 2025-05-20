@@ -73,13 +73,14 @@ export const HomeSection = () => {
               </Button>
             </div>
           </div>
-          <div className="items-center justify-center md:hidden transition-transform duration-300 hover:scale-105">
+          <div className="items-center justify-center transition-transform duration-300 hover:scale-105">
             <Image
               alt="Haidresser's"
               className="w-full h-auto max-h-[600px] object-contain"
               src="/hero.webp"
               width={1200}
               height={800}
+              priority
             />
           </div>
         </div>
