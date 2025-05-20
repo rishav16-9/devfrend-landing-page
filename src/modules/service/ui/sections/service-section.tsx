@@ -5,7 +5,7 @@ export const ServiceSection = () => {
   return (
     <section
       id="services"
-      className="py-32 md:px-2 md:py-24 lg:py-32 px-2 bg-gradient-to-br from-blue-200 to-blue-950 overflow-hidden min-h-screen flex flex-col gap-y-8 items-center"
+      className="py-32 md:px-2 md:py-24 lg:py-32 px-4 bg-gradient-to-br from-blue-200 to-blue-950 overflow-hidden min-h-screen flex flex-col gap-y-8 items-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">

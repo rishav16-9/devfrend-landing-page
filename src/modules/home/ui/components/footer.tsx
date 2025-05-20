@@ -10,14 +10,17 @@ const poppins = Poppins({
 });
 export const Footer = () => {
   return (
-    <footer className=" px-6 lg:px-40 py-2 bg-gradient-to-br from-blue-200 to-blue-950">
+    <footer className="px-6 lg:px-40 py-2 bg-gradient-to-br from-blue-200 to-blue-950">
       <div className="flex flex-row items-center justify-between">
         <span
-          className={cn("text-5xl font-semibold text-black", poppins.className)}
+          className={cn(
+            "text-5xl font-semibold text-black hidden md:block",
+            poppins.className
+          )}
         >
           hairport
         </span>
-        <div className="flex flex-row gap-8 items-center">
+        <div className="flex flex-row gap-8 items-center justify-center w-full md:w-auto mt-4 md:mt-0">
           <Link
             href="https://www.linkedin.com/in/rishav-surana-9aa97318b/"
             target="_blank"
